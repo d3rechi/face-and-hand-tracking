@@ -31,3 +31,18 @@ This project uses computer vision techniques to perform real-time facial recogni
 ## Usage
 
 Run the main script:
+
+- The application will open your webcam feed and start detecting face meshes and hand landmarks.
+- Press 'q' to quit the application.
+
+## How it works
+
+- The script uses MediaPipe's Face Mesh solution to detect and render facial landmarks.
+- It specifically highlights mouth landmarks for easier tracking of mouth movements.
+- Hand tracking is implemented using MediaPipe's Hands solution.
+- All detections are rendered in real-time on the webcam feed.
+
+## Customization
+
+- Adjust the `min_detection_confidence` and `min_tracking_confidence` parameters in the `FaceMesh` and `Hands` initializations to balance between accuracy and speed.
+- Modify the `MOUTH_LANDMARKS` list to highlight different facial features.
