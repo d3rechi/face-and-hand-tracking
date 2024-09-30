@@ -1,3 +1,8 @@
+
+<img width="781" alt="Screenshot 2024-09-30 at 17 55 27" src="https://github.com/user-attachments/assets/6802b40c-6694-4046-a7f6-c14b2840126a">
+
+
+
 # Facial Recognition and Hand Tracking
 
 This project uses computer vision techniques to perform real-time facial recognition, face mesh rendering, and hand tracking using a webcam feed.
