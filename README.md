@@ -12,7 +12,7 @@
   - White circles represent joints
   - A white polygon outlines the palm
 - Face detection results are displayed as green rectangles.
-- All elements are rendered on a black background for a "night vision" effect.
+- All elements are rendered on a black background so you don't have to dox yourself XD.
 
 ## Customization
 
