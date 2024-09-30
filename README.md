@@ -1,31 +1,33 @@
+# Facial Recognition and Hand Tracking
 
-- The application will open your default webcam and start tracking.
-- You will see a black screen with colorful finger-style representations of your hands and green rectangles for face detection.
-- Press 'q' to quit the application.
+This project uses computer vision techniques to perform real-time facial recognition, face mesh rendering, and hand tracking using a webcam feed.
 
-## How it works
+## Features
 
-- The script uses MediaPipe for hand landmark detection and face detection.
-- Hand landmarks are processed to create a stylized finger representation:
-  - Each finger is drawn with a different color
-  - Thick lines represent the fingers
-  - White circles represent joints
-  - A white polygon outlines the palm
-- Face detection results are displayed as green rectangles.
-- All elements are rendered on a black background so you don't have to dox yourself XD.
+- Face mesh detection and rendering
+- Mouth landmark highlighting
+- Hand tracking and landmark rendering
+- Real-time processing of webcam feed
 
-## Customization
+## Requirements
 
-You can easily customize the appearance by modifying the `draw_finger_style_hand` function:
-- Adjust colors of fingers
-- Change line thickness
-- Modify joint representation
+- Python 3.7+
+- OpenCV
+- MediaPipe
 
-## Contributing
+## Installation
 
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/yourusername/finger-style-tracking/issues).
+1. Clone this repository:
+   ```
+   git clone https://github.com/your-username/facial-recognition-hand-tracking.git
+   cd facial-recognition-hand-tracking
+   ```
 
-## Acknowledgements
+2. Install the required packages:
+   ```
+   pip install opencv-python mediapipe
+   ```
 
-- [MediaPipe](https://mediapipe.dev/) for providing the hand and face detection models
-- [OpenCV](https://opencv.org/) for image processing capabilities
+## Usage
+
+Run the main script:
